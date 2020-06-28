@@ -1,0 +1,25 @@
+HHCS_GA | B0QZ | SF | TRAIN | SF 4.2.200 SP02_FP98.088
+
+
+
+BRE
+http://b0qz-nprodnstg.asp.cernerworks.com/sf-test/BusinessRules
+
+http://b0qztrain.asp.siemensmedical.com/sf-train/BusinessRules
+
+
+Medical necessity:
+
+medical.necessity.web.service.url=https://prod-sf-mn.lbvips.local/sf-mn-prod/MedicalNecessityWeb/services/MNServiceFacade 
+
+With this: 
+medical.necessity.web.service.url=https://nprodnstg-sf-mn.lbvips.local/sf-mn-test/MedicalNecessityWeb/services/MNServiceFacade
+
+
+https://b0qz-nprodnstg.lbvips.local/sf-oms-train/BIN/OgrRequestHandler.dll?format=xml
+https://b0qz-nprodnstg.asp.cernerworks.com/sf-train/oms/BIN/OgrRequestHandler.dll?format=xml
+
+
+OMS URL:
+https://b0qz-nprodnstg.asp.cernerworks.com/sf-oms-train/bin/igfframe.asp
+After: https://b0qz-nprodnstg.asp.cernerworks.com/sf-train/oms/HTML/DEFAULT.HTM
